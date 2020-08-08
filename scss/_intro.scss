@@ -1,0 +1,68 @@
+.intro {
+  padding-top: 30px;
+  // .intro__inner
+
+  &__inner {
+  }
+
+  // .intro__title
+
+  &__title {
+    width: 100%;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+    font-family: "BebasNeueBold";
+    text-transform: uppercase;
+  }
+
+  // .intro__subtitle
+
+  &__subtitle {
+    max-width: 305px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: "HelveticaNeueCyr-Roman";
+    color: black;
+  }
+
+  // .intro__prise
+
+  &__prise {
+    margin: 20px 0;
+    font-family: "BebasNeue-Regular";
+  }
+
+  // .intro__prise-inner
+
+  &__prise-inner {
+    font-size: 22px;
+    text-align: center;
+    background-image: url("../img/prise-bac.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  // .intro__prise--num
+
+  &__prise--num {
+    font-size: 46px;
+    font-family: "BebasNeue-Regular";
+  }
+}
+
+.text--orange {
+  min-width: 100%;
+  color: #ffb380;
+}
+.text--grey {
+  text-decoration: line-through;
+  color: #dcdcdc;
+}
+.intro-button {
+  display: flex;
+  justify-content: center;
+}
