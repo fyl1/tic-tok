@@ -1,8 +1,24 @@
 .intro {
-  padding-top: 30px;
+  padding-top: 70px;
+
   // .intro__inner
 
   &__inner {
+    // background-image: url("../img/men.png");
+    // background-position: right;
+    // background-size: 50%;
+    // background-repeat: no-repeat;
+    display: flex;
+  }
+  &__content {
+    width: 50%;
+  }
+  &-wrapp {
+    width: 50%;
+    background-image: url("../img/men.png");
+    background-position: right;
+    background-size: 90%;
+    background-repeat: no-repeat;
   }
 
   // .intro__title
@@ -29,38 +45,9 @@
     color: black;
   }
 
-  // .intro__prise
-
-  &__prise {
-    margin: 20px 0;
-    font-family: "BebasNeue-Regular";
+  &__list {
+    display: flex;
   }
-
-  // .intro__prise-inner
-
-  &__prise-inner {
-    font-size: 22px;
-    text-align: center;
-    background-image: url("../img/prise-bac.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  // .intro__prise--num
-
-  &__prise--num {
-    font-size: 46px;
-    font-family: "BebasNeue-Regular";
-  }
-}
-
-.text--orange {
-  min-width: 100%;
-  color: #ffb380;
-}
-.text--grey {
-  text-decoration: line-through;
-  color: #dcdcdc;
 }
 .intro-button {
   display: flex;
