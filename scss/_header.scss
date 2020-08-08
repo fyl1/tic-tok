@@ -147,7 +147,7 @@
   text-align: center;
   letter-spacing: 0.04em;
 
-  background: #fef9f6;
+  background: transparent;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 
   transition-duration: 0.25s;
@@ -156,8 +156,11 @@
 .menu__item {
   display: block;
   padding: 0px 24px;
-  color: #454545;
-  font-family: "HelveticaNeueCyr-Roman", sans-serif;
+  color: black;
+  background-color: #fff;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 20px;
   line-height: 35px;
   text-align: center;
@@ -166,7 +169,7 @@
   transition-duration: 0.25s;
 }
 .menu__item:hover {
-  color: #f4b393;
+  color: #f3c619;
 }
 
 .main-nav__item--active > .main-nav__link {
@@ -197,6 +200,9 @@
 @media (min-width: 768px) {
 }
 @media (min-width: 992px) {
+  .main-nav {
+    display: none;
+  }
 }
 @media (min-width: 1200px) {
 }

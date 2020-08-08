@@ -1,55 +1,217 @@
 .intro {
-  padding-top: 70px;
-
   // .intro__inner
 
   &__inner {
-    // background-image: url("../img/men.png");
-    // background-position: right;
-    // background-size: 50%;
-    // background-repeat: no-repeat;
-    display: flex;
-  }
-  &__content {
-    width: 50%;
-  }
-  &-wrapp {
-    width: 50%;
+    padding-top: 70px;
+    height: 410px;
     background-image: url("../img/men.png");
     background-position: right;
-    background-size: 90%;
+    background-size: 50%;
     background-repeat: no-repeat;
+    display: flex;
+  }
+
+  &-wrapp {
+    width: 50%;
   }
 
   // .intro__title
+  &__uptitle {
+    font-family: "Montserrat-SemiBold";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.806;
+    font-size: 12px;
+    color: rgb(187, 187, 187);
+  }
 
   &__title {
     width: 100%;
-    font-size: 50px;
-    line-height: 63px;
-    text-align: center;
-    font-family: "BebasNeueBold";
-    text-transform: uppercase;
+    line-height: 1.257;
+    text-align: left;
+    font-family: "Montserrat-Bold";
+    padding-top: 10px;
   }
 
   // .intro__subtitle
 
-  &__subtitle {
-    max-width: 305px;
-    margin: 0 auto;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.2;
-    font-weight: 500;
-    font-family: "HelveticaNeueCyr-Roman";
-    color: black;
-  }
-
   &__list {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    width: 20.5%;
+    padding: 20px;
+    margin-right: 0%;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 0px 62.1px 6.9px rgba(85, 94, 134, 0.08);
+    &:last-child {
+      background-color: #ff0000;
+    }
+    &:last-child .intro-card__uptitle {
+      color: #fff;
+    }
+    &:last-child .intro-card__title {
+      color: #fff;
+    }
+    &:last-child .card__sub-title {
+      color: #fff;
+    }
+  }
+
+  &__card {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  &-card {
+    &__uptitle {
+      font-size: 8.5px;
+      font-family: "Montserrat-Medium";
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: 1.2;
+      margin-bottom: 10px;
+    }
+    &__title {
+      font-size: 20px;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: 1.2;
+    }
+    &__caption {
+      margin-left: 25px;
+    }
+    &__sub-title {
+      font-size: 8.5px;
+      font-family: "Montserrat-Medium";
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #9f9f9f;
+      margin-top: 5px;
+    }
+  }
+
+  &__img {
+    display: flex;
+    align-items: center;
+    &--img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &-menu {
+    position: absolute;
+    left: 56%;
+    top: 150px;
+    width: 125px;
+    &__link {
+      font-size: 10.5px;
+      text-align: right;
+      font-family: "Montserrat-Bold";
+      font-weight: bold;
+      text-transform: uppercase;
+      color: black;
+    }
+    &__item {
+      text-align: right;
+    }
   }
 }
+.intro-menu__item a:hover,
+.intro-menu__item a:focus,
+.intro-menu__item a:active {
+  color: #f3c619;
+}
 .intro-button {
+  padding-top: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1686px) {
+}
+
+@media (max-width: 1199px) {
+  .intro__list {
+    margin-top: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .intro__item {
+    width: 40%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .intro-wrapp {
+    width: 410px;
+  }
+  .intro-menu {
+    display: none;
+  }
+  .intro__inner {
+    background-size: 60%;
+    background-position: 100% 100%;
+  }
+  .lemon {
+    width: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .intro-wrapp {
+    width: 360px;
+  }
+  .intro__inner {
+    background-size: 430px;
+    padding-bottom: 50px;
+  }
+  .lemon {
+    width: 30px;
+    height: 40px;
+  }
+}
+@media (max-width: 667px) {
+  .intro__inner {
+    background-size: 430px;
+    padding-bottom: 60px;
+  }
+  .intro__item {
+    width: 41%;
+  }
+}
+@media (max-width: 539px) {
+  .intro__inner {
+    background-size: 400px;
+    padding-bottom: 130px;
+  }
+  .intro__item {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .intro__inner {
+    background-size: 100%;
+    padding-bottom: 32%;
+  }
+}
+@media (max-width: 390px) {
+  .intro__inner {
+    background-size: 100%;
+    padding-bottom: 29%;
+  }
 }
