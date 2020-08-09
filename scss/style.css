@@ -542,8 +542,17 @@ p {
     padding-bottom: 130px;
   }
   .intro__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     margin-top: 20px;
+  }
+  .intro__card {
+    width: 230px;
   }
 }
 

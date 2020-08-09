@@ -199,8 +199,13 @@
     padding-bottom: 130px;
   }
   .intro__item {
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin-top: 20px;
+  }
+  .intro__card {
+    width: 230px;
   }
 }
 @media (max-width: 479px) {
