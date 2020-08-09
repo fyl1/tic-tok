@@ -2,13 +2,13 @@
   // .intro__inner
 
   &__inner {
+    display: flex;
     padding-top: 70px;
     height: 410px;
     background-image: url("../img/men.png");
     background-position: right;
     background-size: 50%;
     background-repeat: no-repeat;
-    display: flex;
   }
 
   &-wrapp {
