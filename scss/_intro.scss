@@ -17,7 +17,7 @@
 
   // .intro__title
   &__uptitle {
-    font-family: "Montserrat-SemiBold";
+    font-family: "Montserrat-SemiBold", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.806;
@@ -29,7 +29,7 @@
     width: 100%;
     line-height: 1.257;
     text-align: left;
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat-Bold", sans-serif;
     padding-top: 10px;
   }
 
@@ -72,7 +72,7 @@
   &-card {
     &__uptitle {
       font-size: 8.5px;
-      font-family: "Montserrat-Medium";
+      font-family: "Montserrat-Medium", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       text-align: 1.2;
@@ -80,7 +80,7 @@
     }
     &__title {
       font-size: 20px;
-      font-family: "Montserrat-Bold";
+      font-family: "Montserrat-Bold", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       text-align: 1.2;
@@ -90,7 +90,7 @@
     }
     &__sub-title {
       font-size: 8.5px;
-      font-family: "Montserrat-Medium";
+      font-family: "Montserrat-Medium", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       color: #9f9f9f;
@@ -114,7 +114,7 @@
     &__link {
       font-size: 10.5px;
       text-align: right;
-      font-family: "Montserrat-Bold";
+      font-family: "Montserrat-Bold", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       color: black;
