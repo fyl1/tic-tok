@@ -214,6 +214,17 @@
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
+  .page-header__inner {
+    justify-content: flex-end;
+    height: 1px;
+  }
+
+  .logo {
+    display: none;
+  }
+  .menu__btn {
+    top: -3px;
+  }
 }
 @media (max-width: 479px) {
 }

@@ -314,6 +314,21 @@ p {
   }
 }
 
+@media (max-width: 767px) {
+  .page-header__inner {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 1px;
+  }
+  .logo {
+    display: none;
+  }
+  .menu__btn {
+    top: -3px;
+  }
+}
+
 .intro__inner {
   padding-top: 70px;
   height: 410px;
@@ -518,6 +533,7 @@ p {
   }
   .intro__inner {
     background-size: 430px;
+    padding-top: 20px;
     padding-bottom: 50px;
   }
   .lemon {
