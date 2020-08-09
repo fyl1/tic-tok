@@ -17,6 +17,16 @@
   &:focus {
     outline: none;
     border: none;
+    background-color: lighten($color: #f7c70d, $amount: 8%);
+    transition: 0.5s;
+  }
+  &:hover {
+    background-color: lighten($color: #f7c70d, $amount: 8%);
+    transition: 0.5s;
+  }
+  &:active {
+    background-color: lighten($color: #f7c70d, $amount: 8%);
+    transition: 0.5s;
   }
 
   &__body {

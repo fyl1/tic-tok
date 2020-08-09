@@ -745,6 +745,21 @@ p {
 .btn:focus {
   outline: none;
   border: none;
+  background-color: #f8d034;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #f8d034;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:active {
+  background-color: #f8d034;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .btn__body {
