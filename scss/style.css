@@ -1471,12 +1471,12 @@ p {
 }
 
 .modal {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  display: none;
   z-index: 999;
 }
 
@@ -1502,7 +1502,7 @@ p {
 .modal-wrapp {
   position: relative;
   display: block;
-  max-height: 360px;
+  max-height: 480px;
   width: calc(100% - 40px);
   max-width: 380px;
   margin: 0 auto;
@@ -1510,98 +1510,8 @@ p {
   background-color: #fff;
 }
 
-.modal-content {
-  padding: 35px 25px 10px 25px;
-  max-width: 320px;
-}
-
-.modal-title {
-  max-width: 350px;
-  font-size: 18px;
-  font-family: "HelveticaNeueCyr-Roman";
-}
-
-.modal-title--bold {
-  font-size: 17px;
-  font-family: "HelveticaNeueCyr-Bold", sans-serif;
-}
-
-.modal-input {
-  width: 326px;
-  height: 50px;
-  padding-left: 30px;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 8px;
-}
-
-.modal-hidden {
-  position: absolute;
-  font-size: 20px;
-  right: 20px;
-  top: 15px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.modal-subtitle {
-  max-width: 245px;
-  padding: 15px 0;
-  font-size: 14px;
-  font-family: "HelveticaNeueCyr-Roman";
-  color: #aeaeae;
-}
-
-.modal-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 30px;
-}
-
-.icon-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: white;
-  -webkit-box-shadow: 0px 4px 14.88px 1.12px rgba(234, 172, 134, 0.19);
-          box-shadow: 0px 4px 14.88px 1.12px rgba(234, 172, 134, 0.19);
-  cursor: pointer;
-}
-
-.icon-img {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
-}
-
 .modal-active {
   display: block;
-}
-
-.modal-title--grad {
-  background-image: -webkit-gradient(linear, left top, right top, from(#f7c659), color-stop(37%, #f17630), to(#97139e));
-  background-image: linear-gradient(to right, #f7c659, #f17630 37%, #97139e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "HelveticaNeueCyr-Bold", sans-serif;
-}
-
-.blur {
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
 }
 
 .btn-main {
