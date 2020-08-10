@@ -1,6 +1,15 @@
 .prise {
+  position: relative;
   // .prise__inner
-
+  &-bac__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    height: 100%;
+  }
   &__inner {
   }
 
@@ -25,11 +34,15 @@
   // .prise__list
 
   &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   // .prise__item
 
   &__item {
+    margin: 0 60px;
   }
 
   // .prise__card
@@ -46,15 +59,16 @@
 }
 
 .prise__card-main__img {
+  width: 450px;
   max-width: 450px;
   box-shadow: -1px 0px 62.1px 6.9px rgba(0, 0, 0, 0.06);
 }
 .prise-card {
-  max-width: 450px;
+  max-width: 400px;
   // .prise-card__caption
 
   &__caption {
-    max-width: 450px;
+    max-width: 390px;
     position: absolute;
     top: 0;
     left: 0;
@@ -66,6 +80,9 @@
   // .prise-card__header
 
   &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     padding-top: 40px;
   }
 
@@ -73,10 +90,14 @@
 
   &__title {
     position: relative;
+    height: 26px;+
+
     font-size: 18px;
     text-align: left;
+
     font-family: "Montserrat-Bold", sans-serif;
     padding-bottom: 20px;
+    text-transform: uppercase;
     &::before {
       content: "";
       position: absolute;
@@ -91,16 +112,20 @@
   // .prise-card__img
 
   &__img {
+    margin-right: 40px;
   }
 
   // .prise-card__img--img
 
   &__img--img {
+    width: 60px;
+    height: 60px;
   }
 
   // .prise-card__sub-title
 
   &__sub-title p {
+    max-width: 80%;
     font-family: "Montserrat-Regular", sans-serif;
     font-size: 10px;
     line-height: 1.543;
@@ -112,16 +137,26 @@
 
   &__footer {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
   }
 
   // .prise-card__prise
 
   &__prise {
+    font-size: 34px;
+    text-align: left;
+    font-family: "Montserrat-Bold", sans-serif;
   }
 
   // .prise-card__prise--sell
 
   &__prise--sell {
+    font-size: 22px;
+    text-align: left;
+    font-family: "Montserrat-Bold", sans-serif;
+    text-decoration: line-through;
+    color: #ff0000;
   }
 }
 .prise-button {

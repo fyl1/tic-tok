@@ -692,6 +692,9 @@ p {
 
 .training {
   padding: 30px 0;
+  background-image: url("../img/training-fon.png");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
 }
 
 .training__title {
@@ -822,6 +825,20 @@ p {
   border-radius: 10px;
 }
 
+.prise {
+  position: relative;
+}
+
+.prise-bac__img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  height: 100%;
+}
+
 .prise__title {
   text-align: center;
   font-family: "Montserrat-Bold", sans-serif;
@@ -836,6 +853,21 @@ p {
   margin-bottom: 50px;
 }
 
+.prise__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.prise__item {
+  margin: 0 60px;
+}
+
 .prise__card {
   position: relative;
   display: -webkit-box;
@@ -844,17 +876,18 @@ p {
 }
 
 .prise__card-main__img {
+  width: 450px;
   max-width: 450px;
   -webkit-box-shadow: -1px 0px 62.1px 6.9px rgba(0, 0, 0, 0.06);
           box-shadow: -1px 0px 62.1px 6.9px rgba(0, 0, 0, 0.06);
 }
 
 .prise-card {
-  max-width: 450px;
+  max-width: 400px;
 }
 
 .prise-card__caption {
-  max-width: 450px;
+  max-width: 390px;
   position: absolute;
   top: 0;
   left: 0;
@@ -864,15 +897,26 @@ p {
 }
 
 .prise-card__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   padding-top: 40px;
 }
 
 .prise-card__title {
   position: relative;
+  height: 26px;
   font-size: 18px;
   text-align: left;
   font-family: "Montserrat-Bold", sans-serif;
   padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .prise-card__title::before {
@@ -885,7 +929,17 @@ p {
   background-color: #edda0c;
 }
 
+.prise-card__img {
+  margin-right: 40px;
+}
+
+.prise-card__img--img {
+  width: 60px;
+  height: 60px;
+}
+
 .prise-card__sub-title p {
+  max-width: 80%;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 10px;
   line-height: 1.543;
@@ -897,6 +951,26 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.prise-card__prise {
+  font-size: 34px;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+.prise-card__prise--sell {
+  font-size: 22px;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  text-decoration: line-through;
+  color: #ff0000;
 }
 
 .footer {
@@ -1126,5 +1200,15 @@ p {
   max-width: 40px;
   width: 40px;
   height: 50px;
+}
+
+.prise-btn {
+  height: 35px;
+  width: 130px;
+  border-radius: 5px;
+}
+
+.prise-btn .btn__body {
+  padding-right: 0;
 }
 /*# sourceMappingURL=style.css.map */

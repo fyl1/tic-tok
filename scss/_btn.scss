@@ -59,6 +59,14 @@
     height: 50px;
   }
 }
+.prise-btn {
+  height: 35px;
+  width: 130px;
+  border-radius: 5px;
+  & .btn__body {
+    padding-right: 0;
+  }
+}
 
 // .modal-btn {
 //   width: 245px;
