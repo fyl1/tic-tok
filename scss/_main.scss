@@ -121,10 +121,16 @@ p {
   h1 {
     font-size: 42px;
   }
+  h2 {
+    font-size: 26px;
+  }
 }
 @media (max-width: 767px) {
   h1 {
     font-size: 32px;
+  }
+  h2 {
+    font-size: 21px;
   }
 }
 @media (max-width: 479px) {

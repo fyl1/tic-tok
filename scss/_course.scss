@@ -133,3 +133,81 @@
 }
 .cash-btn {
 }
+@media (min-width: 480px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1500px) {
+  .must {
+    padding-top: 5vw;
+  }
+}
+@media (min-width: 1686px) {
+  .must {
+    padding-top: 8vw;
+  }
+  .cash__text {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 1786px) {
+  .must {
+    padding-top: 9vw;
+  }
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .course-wrapp {
+    padding-bottom: 0;
+  }
+  .course__inner {
+    background-image: none;
+  }
+  .course-must {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 579px) {
+  .course-must {
+    background-image: url("../img/phone.png");
+    background-position: 50% 00%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding-top: 220px;
+  }
+}
+@media (max-width: 479px) {
+  .course-must {
+    background-image: url("../img/phone.png");
+    background-position: 50% 00%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+  }
+  .must__text {
+    padding-left: 10px;
+  }
+  .must__title {
+    padding-top: 20px;
+  }
+  .must__img--img {
+    width: 65px;
+    height: 65px;
+  }
+}
+@media (max-width: 379px) {
+  .course-must {
+    background-image: url("../img/phone.png");
+    background-position: 50% 00%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+  }
+}
