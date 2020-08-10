@@ -1,0 +1,150 @@
+.prise {
+  // .prise__inner
+
+  &__inner {
+  }
+
+  // .prise__title
+
+  &__title {
+    text-align: center;
+    font-family: "Montserrat-Bold", sans-serif;
+  }
+
+  // .prise__subtitle
+
+  &__subtitle {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 1.543;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 50px;
+  }
+
+  // .prise__list
+
+  &__list {
+  }
+
+  // .prise__item
+
+  &__item {
+  }
+
+  // .prise__card
+
+  &__card {
+    position: relative;
+    display: flex;
+  }
+
+  // .prise__card--img
+
+  &__card--img {
+  }
+}
+
+.prise__card-main__img {
+  max-width: 450px;
+  box-shadow: -1px 0px 62.1px 6.9px rgba(0, 0, 0, 0.06);
+}
+.prise-card {
+  max-width: 450px;
+  // .prise-card__caption
+
+  &__caption {
+    max-width: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 65px;
+  }
+
+  // .prise-card__header
+
+  &__header {
+    padding-top: 40px;
+  }
+
+  // .prise-card__title
+
+  &__title {
+    position: relative;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Montserrat-Bold", sans-serif;
+    padding-bottom: 20px;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      height: 2px;
+      width: 90px;
+      background-color: #edda0c;
+    }
+  }
+
+  // .prise-card__img
+
+  &__img {
+  }
+
+  // .prise-card__img--img
+
+  &__img--img {
+  }
+
+  // .prise-card__sub-title
+
+  &__sub-title p {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 10px;
+    line-height: 1.543;
+    text-align: left;
+    margin: 15px 0;
+  }
+
+  // .prise-card__footer
+
+  &__footer {
+    display: flex;
+  }
+
+  // .prise-card__prise
+
+  &__prise {
+  }
+
+  // .prise-card__prise--sell
+
+  &__prise--sell {
+  }
+}
+.prise-button {
+}
+.btn {
+  // .btn__body-wrapp
+
+  &__body-wrapp {
+  }
+
+  // .btn__body
+
+  &__body {
+  }
+
+  // .btn__text
+
+  &__text {
+  }
+}
+.btn-intro {
+}
+.btn-modal {
+}
+.btn-main {
+}
