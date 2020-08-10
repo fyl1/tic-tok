@@ -18,6 +18,11 @@
   src: local("Montserrat-Regular"), url("../fonts/Montserrat-Regular.ttf") format("ttf");
 }
 
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: local("Montserrat-ExtraBold"), url("../fonts/Montserrat-ExtraBold.ttf") format("ttf");
+}
+
 body {
   width: 100%;
   margin: 0;
@@ -1502,12 +1507,76 @@ p {
 .modal-wrapp {
   position: relative;
   display: block;
-  max-height: 480px;
   width: calc(100% - 40px);
-  max-width: 380px;
+  max-width: 480px;
+  max-height: 480px;
   margin: 0 auto;
   z-index: 5;
   background-color: #fff;
+}
+
+.modal-content__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -32px;
+}
+
+.modal-content__img--img {
+  width: 65px;
+  height: 65px;
+}
+
+.modal-uptitle {
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+}
+
+.modal-title {
+  text-align: center;
+  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-size: 21px;
+}
+
+.modal-iput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input {
+  width: 100%;
+  max-width: 200px;
+  background-color: #f2fbfb;
+  color: #b7baba;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 3;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.email_input {
+  margin-right: 10px;
+}
+
+.modal-text__title {
+  text-transform: uppercase;
+  max-width: 480px;
+}
+
+.modal-card__img--img {
+  width: 40px;
+  height: 40px;
 }
 
 .modal-active {
