@@ -225,14 +225,34 @@
     width: 49%;
   }
   .modal-wrapp {
-    max-height: 630px;
+    max-height: 690px;
   }
 }
 @media (max-width: 389px) {
   .modal__item {
     width: 100%;
   }
+  .modal-card {
+    padding: 8px 5px;
+  }
+  .modal-text_2 {
+    margin: 10px 0;
+    font-size: 9px;
+  }
   .modal-wrapp {
-    max-height: inherit;
+    max-height: 800px;
+  }
+  .modal-text {
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+  .input {
+    margin-bottom: 5px;
+  }
+  .modal-text {
+    font-size: 9px;
+  }
+  .modal__item {
+    width: 50%;
   }
 }
