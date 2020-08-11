@@ -1153,6 +1153,11 @@ p {
   color: #ff0000;
 }
 
+.rub {
+  width: 20px;
+  height: 20px;
+}
+
 @media (min-width: 992px) {
   .main-nav {
     display: none;
