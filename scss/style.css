@@ -1378,6 +1378,17 @@ p {
   font-size: 15px;
 }
 
+.question-title:hover {
+  background-color: #000000;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.question-title:hover .question-content__text {
+  display: block;
+  background-color: black;
+}
+
 .question-content {
   background-color: #000000;
   border-radius: 5px;
@@ -1392,6 +1403,7 @@ p {
 }
 
 .question-content__text {
+  display: none;
   line-height: 1.6;
   text-align: center;
   font-size: 11px;
