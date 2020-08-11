@@ -56,7 +56,7 @@
   font-family: "Montserrat-ExtraBold", sans-serif;
   font-size: 21px;
 }
-.modal-iput {
+.modal-input {
   display: flex;
   justify-content: center;
 }
@@ -128,7 +128,7 @@
 }
 .modal-card {
   display: flex;
-  padding: 20px 20px;
+  padding: 20px 5px;
   // .modal-card__img
 
   &__img {
@@ -208,4 +208,31 @@
 }
 .modal-active {
   display: block;
+}
+@media (max-width: 479px) {
+  .modal-content {
+    padding: 0 20px;
+  }
+  .modal-input {
+    flex-wrap: wrap;
+  }
+  .input {
+    margin-bottom: 10px;
+    flex-basis: 100%;
+    min-width: 150px;
+  }
+  .modal__item {
+    width: 49%;
+  }
+  .modal-wrapp {
+    max-height: 630px;
+  }
+}
+@media (max-width: 389px) {
+  .modal__item {
+    width: 100%;
+  }
+  .modal-wrapp {
+    max-height: inherit;
+  }
 }
