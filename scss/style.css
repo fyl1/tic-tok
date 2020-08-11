@@ -1483,6 +1483,7 @@ p {
   right: 0;
   bottom: 0;
   z-index: 999;
+  background-color: rgba(0, 0, 0, 0.654);
 }
 
 .modal-inner {
@@ -1509,10 +1510,15 @@ p {
   display: block;
   width: calc(100% - 40px);
   max-width: 480px;
-  max-height: 480px;
+  max-height: 520px;
   margin: 0 auto;
   z-index: 5;
   background-color: #fff;
+}
+
+.modal-content {
+  position: relative;
+  padding: 0 40px;
 }
 
 .modal-content__img {
@@ -1537,6 +1543,7 @@ p {
 }
 
 .modal-title {
+  padding: 5px 0 15px 0;
   text-align: center;
   font-family: "Montserrat-ExtraBold", sans-serif;
   font-size: 21px;
@@ -1573,6 +1580,7 @@ p {
   max-width: 80%;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 15px;
   text-align: center;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 11px;
@@ -1605,16 +1613,24 @@ p {
   background-color: #f2fbfb;
 }
 
+.modal__item {
+  width: 33%;
+}
+
 .modal-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 33%;
+  padding: 20px 20px;
+}
+
+.modal-card__img {
+  padding-right: 5px;
 }
 
 .modal-card__img--img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .modal-card__text {
@@ -1627,6 +1643,7 @@ p {
   text-align: left;
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 8.5px;
+  padding-bottom: 8px;
 }
 
 .modal-btn_wrapp {
@@ -1656,6 +1673,42 @@ p {
   text-align: center;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 11px;
+}
+
+.modal-hard {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 8px;
+  color: #c2c2c2;
+}
+
+.modal-hidden {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 20px;
+  right: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 20px;
+  font-size: 32px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.modal-hidden:hover,
+.modal-hidden:focus,
+.modal-hidden:active {
+  border: 1px solid #b7baba;
 }
 
 .modal-active {
