@@ -3,6 +3,7 @@
   background-image: url("../img/header-bac.png");
   background-size: cover;
   background-repeat: no-repeat;
+  outline: none;
   // &::before {
   //   content: "";
   //   position: absolute;
@@ -24,6 +25,7 @@
     transform: translateX(-35%);
     width: 70%;
     margin: 0 auto;
+    outline: none;
   }
 }
 .page-header__inner {
@@ -32,7 +34,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  font-family: $font-fem;
+
+  outline: none;
 
   .logo {
     max-width: 340px;
@@ -48,6 +51,7 @@
 }
 .main-nav {
   margin-right: -12px;
+  outline: none;
 }
 .btn-nav {
   height: 35px;
@@ -60,7 +64,8 @@
   border-radius: 20px;
   font-weight: 500;
   background-color: transparent;
-  color: $header_col;
+
+  outline: none;
 }
 // #menu__toggle {
 //   opacity: 0;
@@ -68,6 +73,7 @@
 
 #menu__toggle {
   opacity: 0;
+  outline: none;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
@@ -105,6 +111,7 @@
   color: #000000;
   cursor: pointer;
   z-index: 100;
+  outline: none;
 }
 
 .menu__btn > span,
@@ -118,6 +125,7 @@
   right: 0px;
   background-color: #000000;
   transition-duration: 0.25s;
+  outline: none;
 }
 .menu__btn > span::before {
   content: "";
@@ -170,6 +178,7 @@
   letter-spacing: 0.04em;
   text-decoration: none;
   transition-duration: 0.25s;
+  outline: none;
 }
 .menu__item:hover {
   color: #f3c619;
@@ -191,6 +200,7 @@
   display: block;
   margin-top: 10px;
   margin-bottom: 20px;
+  outline: none;
 }
 
 .logo__caption {

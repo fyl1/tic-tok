@@ -127,6 +127,7 @@ p {
   background-image: url("../img/header-bac.png");
   background-size: cover;
   background-repeat: no-repeat;
+  outline: none;
 }
 
 .page-header__img {
@@ -137,6 +138,7 @@ p {
           transform: translateX(-35%);
   width: 70%;
   margin: 0 auto;
+  outline: none;
 }
 
 .page-header__inner {
@@ -149,7 +151,7 @@ p {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  font-family: Copperplate, sans-serif;
+  outline: none;
 }
 
 .page-header__inner .logo {
@@ -167,6 +169,7 @@ p {
 
 .main-nav {
   margin-right: -12px;
+  outline: none;
 }
 
 .btn-nav {
@@ -181,11 +184,12 @@ p {
   border-radius: 20px;
   font-weight: 500;
   background-color: transparent;
-  color: #000000;
+  outline: none;
 }
 
 #menu__toggle {
   opacity: 0;
+  outline: none;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
@@ -235,6 +239,7 @@ p {
   color: #000000;
   cursor: pointer;
   z-index: 100;
+  outline: none;
 }
 
 .menu__btn > span,
@@ -249,6 +254,7 @@ p {
   background-color: #000000;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
+  outline: none;
 }
 
 .menu__btn > span::before {
@@ -303,6 +309,7 @@ p {
   text-decoration: none;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
+  outline: none;
 }
 
 .menu__item:hover {
@@ -326,6 +333,7 @@ p {
   display: block;
   margin-top: 10px;
   margin-bottom: 20px;
+  outline: none;
 }
 
 .logo__caption {
