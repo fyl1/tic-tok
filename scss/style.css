@@ -1569,14 +1569,93 @@ p {
   margin-right: 10px;
 }
 
+.modal-text {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 11px;
+}
+
+.modal-text_2 {
+  margin: 20px 0;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 11px;
+}
+
 .modal-text__title {
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 7px;
   text-transform: uppercase;
-  max-width: 480px;
+}
+
+.text-bold {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+.modal-bank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f2fbfb;
+}
+
+.modal-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
 }
 
 .modal-card__img--img {
   width: 40px;
   height: 40px;
+}
+
+.modal-card__text {
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 8.5px;
+}
+
+.modal-card__title {
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 8.5px;
+}
+
+.modal-btn_wrapp {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-email {
+  width: 135px;
+  height: 35px;
+  background-color: #f7c70d;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+.btn-email .btn__body {
+  padding: 0;
+}
+
+.btn-email .btn__body .btn__text {
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 11px;
 }
 
 .modal-active {
