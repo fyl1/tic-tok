@@ -124,9 +124,6 @@ p {
 
 .page-header {
   position: relative;
-  background-image: url("../img/header-bac.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   outline: none;
 }
 
@@ -1211,6 +1208,10 @@ p {
   }
   .prise__item {
     margin-bottom: 40px;
+  }
+  .rub {
+    width: 15px;
+    height: 15px;
   }
 }
 
