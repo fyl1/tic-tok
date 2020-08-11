@@ -144,6 +144,7 @@
   // .prise-card__prise
 
   &__prise {
+    font-weight: 700;
     font-size: 34px;
     text-align: left;
     font-family: "Montserrat-Bold", sans-serif;
@@ -179,8 +180,8 @@
 }
 
 .rub {
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
 }
 
 @media (min-width: 480px) {
