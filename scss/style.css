@@ -90,6 +90,11 @@ p {
   margin-right: auto;
 }
 
+.blur {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
 @media (min-width: 992px) {
   .container {
     width: calc(100% - 40px);
@@ -208,6 +213,8 @@ p {
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
+  border: none;
+  outline: none;
 }
 
 .menu__btn {
@@ -272,6 +279,8 @@ p {
   line-height: 50px;
   text-align: center;
   letter-spacing: 0.04em;
+  border: none;
+  outline: none;
   background: transparent;
   -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
@@ -283,7 +292,7 @@ p {
   display: block;
   padding: 0px 24px;
   color: black;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -617,7 +626,7 @@ p {
 
 .course__title {
   color: #fff;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .course__text p {

@@ -89,6 +89,8 @@
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
+  border: none;
+  outline: none;
 }
 
 .menu__btn {
@@ -146,7 +148,8 @@
   line-height: 50px;
   text-align: center;
   letter-spacing: 0.04em;
-
+  border: none;
+  outline: none;
   background: transparent;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 
@@ -157,7 +160,7 @@
   display: block;
   padding: 0px 24px;
   color: black;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: bold;
   text-transform: uppercase;

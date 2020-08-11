@@ -1,10 +1,10 @@
 <?php
     /*ПОМЕЩАЕМ ДАННЫЕ ИЗ ПОЛЕЙ В ПЕРЕМЕННЫЕ*/
-    $email = $_POST["#email_popup"];
-    $teleg = $_POST["#teleg_popup"];
+    $email = $_POST["email_popup"];
+    $teleg = $_POST["teleg_popup"];
 
     /*ЗДЕСЬ ПРОВЕРЯЕМ ЕСЛИ ХОТЯ БЫ ОДНО ИЗ ПОЛЕЙ НЕ ЗАПОЛНЕНО МЫ ВОЗВРАЩАЕМ СООБЩЕНИЕ*/
-    if($email=="" or $teleg==""){ 
+    if($email=="" or $teleg==""){
         echo "Заполните все поля";
     }
 
