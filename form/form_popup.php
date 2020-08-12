@@ -20,12 +20,12 @@
         /*ВО ВНУТРЬ ПЕРЕМЕННОЙ $message ЗАПИСЫВАЕМ ДАННЫЕ ИЗ ПОЛЕЙ */
         $message .= "Почта пользователя: ".$email."\n";
         $message .= "Соц сети покупателя: ".$teleg."\n";
-        $check = '';
-       if (!empty($_POST["check"]) && is_array($_POST["check"]))
-         {
-             $check = implode(" ", $_POST["check"]);
-         }
-         $message .= "Платежка: ".$check."\n";
+    //     $check = '';
+    //    if (!empty($_POST["check"]) && is_array($_POST["check"]))
+    //      {
+    //          $check = implode(" ", $_POST["check"]);
+    //      }
+    //      $message .= "Платежка: ".$check."\n";
         /*ДЛЯ ОТЛАДКИ ВЫ МОЖЕТЕ ПРОВЕРИТЬ ПРАВИЛЬНО ЛИ ЗАПИСАЛИCM ДАННЫЕ ИЗ ПОЛЕЙ*/
 
         $send = mail($to, $subject, $message, $headers);
