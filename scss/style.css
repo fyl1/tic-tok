@@ -721,6 +721,21 @@ p {
   line-height: 1.639;
 }
 
+@media (min-width: 1100px) {
+  .course__inner {
+    background-image: url("../img/phone.png");
+    background-position: 110% 10%;
+    background-size: 45%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1200px) {
+  .must {
+    padding-top: 2vw;
+  }
+}
+
 @media (min-width: 1500px) {
   .must {
     padding-top: 5vw;
