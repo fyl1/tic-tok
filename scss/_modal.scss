@@ -22,7 +22,7 @@
   display: block;
   width: calc(100% - 40px);
   max-width: 480px;
-  max-height: 520px;
+  max-height: 540px;
   margin: 0 auto;
   z-index: 5;
   background-color: #fff;
@@ -74,6 +74,11 @@
   border-radius: 6px;
   outline: none;
   border: none;
+}
+.modal-checkbox {
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 7px;
 }
 .email {
   // .email_input
@@ -128,7 +133,7 @@
 }
 .modal-card {
   display: flex;
-  padding: 20px 5px;
+  padding: 20px 5px 5px 5px;
   // .modal-card__img
 
   &__img {
@@ -159,6 +164,11 @@
     padding-bottom: 8px;
   }
 }
+.modal-bank__title {
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 15px;
+}
 .modal-btn_wrapp {
   width: 100%;
   display: flex;
@@ -183,6 +193,7 @@
 }
 .modal-hard {
   padding-top: 15px;
+  padding-bottom: 5px;
   text-align: center;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 8px;
@@ -225,7 +236,10 @@
     width: 49%;
   }
   .modal-wrapp {
-    max-height: 690px;
+    max-height: 710px;
+  }
+  .modal-bank__title {
+    font-size: 12px;
   }
 }
 @media (max-width: 389px) {
@@ -240,7 +254,7 @@
     font-size: 9px;
   }
   .modal-wrapp {
-    max-height: 800px;
+    max-height: 810px;
   }
   .modal-text {
     margin-top: 10px;

@@ -10,7 +10,8 @@
 
     else{
         /*ЕСЛИ ВСЕ ПОЛЯ ЗАПОЛНЕНЫ НАЧИНАЕМ СОБИРАТЬ ДАННЫЕ ДЛЯ ОТПРАВКИ*/
-        $to = "Limontiktok@mail.ru"; /* Адрес, куда отправляем письма */
+        // $to = "Limontiktok@mail.ru"; /* Адрес, куда отправляем письма */
+        $to = "	97fyl97@gmail.com"; /* Адрес, куда отправляем письма */
         $subject = "Письмо с обратной связи"; /*Тема письма*/
         $headers = "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=utf-8\r\n";
@@ -19,7 +20,12 @@
         /*ВО ВНУТРЬ ПЕРЕМЕННОЙ $message ЗАПИСЫВАЕМ ДАННЫЕ ИЗ ПОЛЕЙ */
         $message .= "Почта пользователя: ".$email."\n";
         $message .= "Соц сети покупателя: ".$teleg."\n";
-
+        $check = '';
+       if (!empty($_POST["check"]) && is_array($_POST["check"]))
+         {
+             $check = implode(" ", $_POST["check"]);
+         }
+         $message .= "Платежка: ".$check."\n";
         /*ДЛЯ ОТЛАДКИ ВЫ МОЖЕТЕ ПРОВЕРИТЬ ПРАВИЛЬНО ЛИ ЗАПИСАЛИCM ДАННЫЕ ИЗ ПОЛЕЙ*/
 
         $send = mail($to, $subject, $message, $headers);
