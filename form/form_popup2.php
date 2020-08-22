@@ -12,7 +12,7 @@
         /*ЕСЛИ ВСЕ ПОЛЯ ЗАПОЛНЕНЫ НАЧИНАЕМ СОБИРАТЬ ДАННЫЕ ДЛЯ ОТПРАВКИ*/
         $to = "Limontiktok@mail.ru"; /* Адрес, куда отправляем письма */
         // $to = "	97fyl97@gmail.com"; /* Адрес, куда отправляем письма */
-        $subject = "Покупка курса СТУДЕНТ"; /*Тема письма*/
+        $subject = "Покупка курса ПОД КРЫЛО"; /*Тема письма*/
         $headers = "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=utf-8\r\n";
         $headers .= "From: <Limontiktok@mail.ru>\r\n";/*ОТ КОГО*/
